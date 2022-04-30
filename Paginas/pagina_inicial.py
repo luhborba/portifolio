@@ -3,7 +3,7 @@ import streamlit as st
 def Porti():
     st.write('Olá! Muito Prazer me chamo Luciano de Andrade Borba, sou casado, tenho 3 filhos, sou uma pessoa apaixonada pela área de Tecnologia, em especial área de Dados, amo agregar valor através das minhas análises, assim impactando no dia a dia das pessoas!')
     st.write('')
-    st.write('Trabalho na **Secretaria Municipal de Saúde de João Pessoa**, sou _Data Analytics_ atuo analisando dados organizacionais para auxiliar no planejamento financeiro da Secretaria.')
+    st.write('Trabalho na **Secretaria Municipal de Saúde de João Pessoa**, sou _Data Analytics_, atuo analisando dados organizacionais para auxiliar no planejamento financeiro da Secretaria.')
     st.write('')
     st.write('**-Tecnologia Utilizada: (Lista em Ordem de Experiência, Utilização e Habilidade)**')
     st.write('-Linguagem Python')
