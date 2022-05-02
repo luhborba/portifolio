@@ -8,6 +8,10 @@ import Paginas.pagina_inicial as pi
 import warnings
 warnings.filterwarnings('ignore')
 
+st.markdown('<style>body{
+background-image:url(../image/dad.jpg);
+}</style>')
+
 #Titulo
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
