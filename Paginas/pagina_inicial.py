@@ -20,7 +20,7 @@ def Porti():
     st.write('**-Em Andamento - Pós-Graduação em Analise de Dados - Descomplica - 03/2022**')
     st.write('**-Em Andamento - MBA em Business Intelligence - Descomplica - 04/2022**')
     st.subheader('**Experiência**')
-    st.write('**-Analista de Dados - Secretaria Municipal de Saúde de João Pessoa - 01/04/2022 [Emprego Atual]*')
+    st.write('**-Analista de Dados - Secretaria Municipal de Saúde de João Pessoa - 01/04/2022 [Emprego Atual]**')
     st.write('Atuando com Dados em grande volume, com foco para planejamento organizacional para planejamentos, mas mediante ao projeto analisando dados dos cidadões para melhor planejamento de ações de Saúde na cidade')
     st.write('**-Técnico de Suporte a Sistemas - Secretaria Municipal de Saúde de João Pessoa - 01/01/2021 a 31/03/2022** ')
     st.write('Atuando com Treinamento, Suporte HelpDesk, Suporte Remoto, geração de relatório e dashboards')
