@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 import Paginas.pagina_inicial as pi
+import streamlit.components.v1 as c
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -11,6 +12,8 @@ warnings.filterwarnings('ignore')
 
 
 #Titulo
+c.html("""
+<body background=/image/dad.jpg>""")
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
 SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto SMS(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Outros'])
