@@ -10,7 +10,7 @@ import base64
 import warnings
 warnings.filterwarnings('ignore')
 
-main_bg = ".image/dad.jpg"
+main_bg = "image/dad.jpg"
 main_bg_ext = "jpg"
 
 
