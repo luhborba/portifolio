@@ -12,7 +12,7 @@ warnings.filterwarnings('ignore')
 
 
 #Titulo
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered"
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
 SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto SMS(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Outros'])
