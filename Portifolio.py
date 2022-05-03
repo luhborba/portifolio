@@ -10,20 +10,10 @@ import base64
 import warnings
 warnings.filterwarnings('ignore')
 
-main_bg = "image/dad.jpg"
-main_bg_ext = "jpg"
+
 
 st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered")
-st.markdown(
-    f"""
-    <style>
-    .reportview-container {{
-        background: url(data:image/{main_bg_ext};base64,{base64.b64encode(open(main_bg, "rb").read()).decode()})
-    }}
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
 
 #Titulo
 
