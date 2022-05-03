@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 main_bg = "image/dad.jpg"
 main_bg_ext = "jpg"
 
-
+st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered")
 st.markdown(
     f"""
     <style>
@@ -26,7 +26,7 @@ st.markdown(
 )
 
 #Titulo
-st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered")
+
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
 SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto SMS(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Outros'])
