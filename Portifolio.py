@@ -5,7 +5,7 @@ import seaborn as sns
 import streamlit as st
 import Paginas.pagina_inicial as pi
 import streamlit.components.v1 as c
-import base64
+
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -14,7 +14,16 @@ warnings.filterwarnings('ignore')
 
 st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered")
 
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg");
+background-size: cover;
+}
+</style>
+'''
 
+st.markdown(page_bg_img, unsafe_allow_html=True)
 #Titulo
 
 st.title('Luciano Borba - Projetos')
