@@ -10,9 +10,6 @@ import streamlit.components.v1 as c
 import warnings
 warnings.filterwarnings('ignore')
 
-[theme]
-base="dark"
-
 st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered")
 
 page_bg_img = '''
