@@ -3,19 +3,36 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
+import Paginas.pagina_inicial as pi
+import streamlit.components.v1 as c
+
 
 import warnings
 warnings.filterwarnings('ignore')
 
+st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", layout="centered")
+
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://img.freepik.com/fotos-gratis/fundo-preto-antigo-textura-do-grunge-papel-de-parede-escuro-quadro-negro-quadro-negro-parede-da-sala_1258-28312.jpg");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
 #Titulo
+
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
-SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Outros'])
+SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto SMS(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Outros'])
 if SideBar == 'Página Incial':
-    st.title('Página de Portifolio de Tarefas de Análise de Dados Usando o Python')
-    st.subheader('Me siga no Linkedin: www.linkedin.com/in/luhborba')
-    st.subheader('Entra lá no meu Canal do Youtube: https://www.youtube.com/channel/UCN16u-GFjdNmVWlxBZvRqsQ')
+    pi.Porti()
     
+elif SideBar == 'Projeto SMS(Power BI)':
+    st.subheader('Projeto de Análise Salaria da Secretaria Municipal de João Pessoa no Ano de 2021 feito em Power BI')
+    st.markdown('<iframe title="LabSMS" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMjExYzI4MDAtMTg2Zi00MzU0LWFiMzMtOTg1Y2YzNjliNTc1IiwidCI6IjM2ZjUxZmFhLThiYTItNDcxNy1iMmFlLTEwNTIxNzFjNjM0YiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
 elif SideBar == 'Projeto Unicórnios':
 #Tratando Dados
     st.subheader('Projeto Empresas Unicórnios Disponíbilizado pela Data Viking')
