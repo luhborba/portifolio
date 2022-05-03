@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.graph_objects as go
 import warnings
-import streamlit
+import streamlit as st
     
 warnings.filterwarnings('ignore')
 
