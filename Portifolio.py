@@ -7,6 +7,7 @@ import Paginas.pagina_inicial as pi
 import Paginas.unicornio as u
 import Paginas.magalu as m
 import Paginas.ps4 as ps4
+import Paginas.nba as nba
 
 
 import warnings
@@ -34,5 +35,9 @@ elif SideBar == 'Projeto Mercado Financeiro':
 
 elif SideBar == 'Projeto PS4':
     ps4.ps4()
+    
+elif SideBar == 'Projeto NBA':
+    nba.nba()
+    
 elif SideBar == 'Outros':
     st.title("Logo logo teremos mais")
