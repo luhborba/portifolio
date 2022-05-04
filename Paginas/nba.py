@@ -24,7 +24,7 @@ def nba():
     Maior_Altura = df['Altura(cm)'].max()
     Maior_Peso = df['Peso(kg)'].max()
     #Streamlit
-    st.subheader('Projeto Análise da NBA Dísponibilizao pela Kaggle')
+    st.subheader('Projeto Análise da NBA Disponibilizado pela Kaggle')
     st.subheader('Kaggle : https://www.kaggle.com/datasets/drgilermo/nba-players-stats')
 
     st.write('Tabela de Dados dos Jogadores da NBA desde 1950')
