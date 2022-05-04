@@ -13,7 +13,8 @@ def ps4():
     #Tratando Dados
     df = df.dropna()
     df = df.loc[ (df['Year'] != 2019) &  (df['Year'] != 2020)]
-
+    st.subheader('Projeto Análise PS4 - Disponíbilizado pela Data Viking')
+    st.subheader('Segue Canal do Youtube deles : https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ?app=desktop')
     #Gráfico 1 - 
     st.write('Gráfico 1 - Nesta visualização mostraremos uma analise de Vendas Globais por Ano')
     #Tamanho
