@@ -30,6 +30,7 @@ def Porti():
         st.write('Atuando com HelpDesk, Suporte de Software, Elaboração de Material para Suporte, Elaboração Termos para Contratação/Aquisição de Equipamentos e Suprimento de informática ')
     Curso = st.expander('Cursos Complementares')
     with Curso:
+        st.write(-'Python para Engenheiros e Cientistas - 19,5 Horas - Udemy[05/2022]')
         st.write('-Introdução ao Tableau - 5 Horas - EIA[04/2022]')
         st.write('-Machine Learning com Python - 3 Horas - Regressão Linear - DataViking[04/2022]')
         st.write('-SQL com Python - 3 Horas - DataViking[04/2022]')
