@@ -63,10 +63,11 @@ def Porti():
         st.write('-Introdução ao banco de dados MySQL - 0,5 Horas - DiegoMariano[01/2021]') 
     Certifi = st.expander('Certificações')
     with Certifi:
-        st.write('-Fundamento da Informatica - IBSEC[03/2022]')
-        st.write('-Exame Python Básico - Logikraft[03/2022]')
-        st.write('-Scrum Fundamentals Certified - ScrumStudy[01/2021]')
-        st.write()
+        st.write("""
+        -Fundamento da Informatica - IBSEC[03/2022]
+        -Exame Python Básico - Logikraft[03/2022]
+        -Scrum Fundamentals Certified - ScrumStudy[01/2021]
+        <br><br>""",unsafe_allow_html= True)
     st.subheader('Todos os certificados estão na Pasta do GitHub do Portifólio')
     st.markdown('https://github.com/luhborba/portifolio/tree/main/Certificados')
     st.title('Navegue pelo menu a direita para visualizar meus projetos realizados')
