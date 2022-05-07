@@ -126,4 +126,4 @@ def ps4():
 
 
     fig.text(0.5,-0.05,Rodape,ha='center',va='bottom', size=12, color='#938ca1');
-    st.pyplot()
+    st.pyplot(fig)
