@@ -126,4 +126,5 @@ def ps4():
 
 
     fig.text(0.5,-0.05,Rodape,ha='center',va='bottom', size=12, color='#938ca1');
+    st.write("Gráfico 2 - Aqui mostraremos uma cadeia de gráfico gerenciais para facilitar as tomadas de decisões futuras como também a vizualização do panorama atual")
     st.pyplot(fig)
