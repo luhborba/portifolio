@@ -64,8 +64,8 @@ def Porti():
     Certifi = st.expander('Certificações')
     with Certifi:
         st.write("""
-        -Fundamento da Informatica - IBSEC[03/2022]
-        -Exame Python Básico - Logikraft[03/2022]
+        -Fundamento da Informatica - IBSEC[03/2022]<br>
+        -Exame Python Básico - Logikraft[03/2022]<br>
         -Scrum Fundamentals Certified - ScrumStudy[01/2021]
         <br><br>""",unsafe_allow_html= True)
     st.subheader('Todos os certificados estão na Pasta do GitHub do Portifólio')
