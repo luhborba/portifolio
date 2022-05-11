@@ -7,7 +7,7 @@ import streamlit as st
 
 
 def pib():
-    Base = pd.read_excel('Dados_Pib.xlsx')
+    Base = pd.read_excel('Projeto 6/Dados_Pib.xlsx')
     #Sistema de Grids
 
     #Cor de Fundo
