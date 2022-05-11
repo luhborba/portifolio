@@ -20,7 +20,7 @@ st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", l
 
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
-SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto SMS(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Projeto NBA','Outros'])
+SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto SMS(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro','Projeto PS4','Projeto NBA','Projeto Renda Per Capita','Outros'])
 if SideBar == 'Página Incial':
     pi.Porti()
     
