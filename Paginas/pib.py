@@ -30,5 +30,5 @@ def pib():
     fontsize=18)
     #Ajustando Titulo
     plt.subplots_adjust( top=0.92)
-    st.write('Neste GRID mostraremos a a evolução de PIB per Capita dos Anos 2013 a 2016')
-    st.pyplot(Grid)
+    st.write('GRID 1 - Neste GRID mostraremos a a evolução de PIB per Capita dos Anos 2013 a 2016')
+    st.pyplot(plt)
