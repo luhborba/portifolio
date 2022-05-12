@@ -10,6 +10,10 @@ warnings.filterwarnings('ignore')
 
 def ps4():
     
+    st.subheader('Projeto Análise da Vendas de Games de PS4 [2013 a 2018]')
+    st.subheader('Segue Canal do Youtube deles : ')
+    st.markdown('https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ?app=desktop')
+    
     #LENDO DADOS
     df = pd.read_csv('Projeto 4/PS4_GamesSales.csv', encoding='latin-1')
     #Tratando Dados
