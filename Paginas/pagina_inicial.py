@@ -71,6 +71,6 @@ def Porti():
     st.subheader('Todos os certificados estão na Pasta do GitHub do Portifólio')
     st.markdown('https://github.com/luhborba/portifolio/tree/main/Certificados')
     st.title('Navegue pelo menu a direita para visualizar meus projetos realizados')
-    st.subheader('Me siga no Linkedin: www.linkedin.com/in/luhborba')
-    st.subheader('Entra lá no meu Canal do Youtube: https://www.youtube.com/channel/UCN16u-GFjdNmVWlxBZvRqsQ')
+    st.markdown('Me siga no Linkedin: www.linkedin.com/in/luhborba')
+    st.markdown('Entra lá no meu Canal do Youtube: https://www.youtube.com/channel/UCN16u-GFjdNmVWlxBZvRqsQ')
     
