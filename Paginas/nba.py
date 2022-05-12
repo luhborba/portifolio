@@ -5,6 +5,11 @@ import streamlit as st
 
 def nba():
     #Lendo e Tratando Dados
+    st.subheader('Projeto de Análise Básica sobre Jogadores do NBA')
+    st.subheader('Projeto retirado do Kaggle')
+    st.markdown('https://www.kaggle.com/datasets/drgilermo/nba-players-stats')
+    
+    
     df = pd.read_csv('Projeto 5/Players.csv')
     df.head()
     df = df.dropna()
