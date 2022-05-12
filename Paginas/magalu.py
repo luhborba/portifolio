@@ -11,8 +11,9 @@ warnings.filterwarnings('ignore')
 def magalu():
     #Tratando Dados
     st.subheader('Projeto Análise da MAGALU no Mercado Financeiro 2021 - Disponíbilizado pela Data Viking')
-    st.subheader('Segue Canal do Youtube deles : https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ?app=desktop')
-    #imports
+    st.subheader('Segue Canal do Youtube deles : ')
+    st.markdown('https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ?app=desktop')
+    
   
 
 #TRATANDO DADOS
