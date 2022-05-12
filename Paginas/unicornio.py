@@ -7,7 +7,8 @@ import streamlit as st
 def Uni():
 
     st.subheader('Projeto Empresas Unicórnios Disponíbilizado pela Data Viking')
-    st.subheader('Segue Canal do Youtube deles : https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ?app=desktop')
+    st.subheader('Segue Canal do Youtube deles : ')
+    st.markdown('https://www.youtube.com/channel/UCZT-d8Q9d3obS6NxhyxnznQ?app=desktop')
     banco = pd.read_csv('Projeto 1/Startups in 2021 end.csv')
     banco.rename(columns={
         'Unnamed: 0' : 'ID',
