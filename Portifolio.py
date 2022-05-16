@@ -33,7 +33,7 @@ elif SideBar == 'Projeto Análise Secretaria de Saúde de João Pessoas(Power BI
     **2)** Quais são os vínculos destes Servidores? e Existem quantos funcionários em cada um desses vínculos?<br>
     **3)** Qual a média salarial por mês?<br>
     **4)** Total salarial por tipo de salarial?<br>
-    **5)** Qual a média salarial?<br>
+    **5)** Qual a média salarial?<br><br>
     ''', unsafe_allow_html=True)
     st.markdown('<iframe title="LabSMS" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMjExYzI4MDAtMTg2Zi00MzU0LWFiMzMtOTg1Y2YzNjliNTc1IiwidCI6IjM2ZjUxZmFhLThiYTItNDcxNy1iMmFlLTEwNTIxNzFjNjM0YiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
 elif SideBar == 'Projeto Unicórnios':
