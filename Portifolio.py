@@ -25,7 +25,7 @@ if SideBar == 'Página Incial':
     pi.Porti()
     
 elif SideBar == 'Análise Secretaria de Saúde de João Pessoas(Power BI)':
-    st.subheader('Projeto de Análise Salarial da Secretaria Municipal de João Pessoa no Ano de 2021 feito em Power BI')
+    st.subheader('Projeto de Análise Salarial da Secretaria Municipal de Saúde de João Pessoa no Ano de 2021 feito em Power BI')
     st.write('''
     Estes dados foram coletados atráves do Portal da Transparência deste Município.
     O arquivo foi importado em CSV, através do próprio portal, e foram analisados o tipo de vínculo dos funcionários mais presentes, como também responder algumas perguntas, são elas:<br><br>
