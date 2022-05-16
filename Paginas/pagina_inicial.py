@@ -34,37 +34,38 @@ def Porti():
         st.write('Atuando com HelpDesk, Suporte de Software, Elaboração de Material para Suporte, Elaboração Termos para Contratação/Aquisição de Equipamentos e Suprimento de informática ')
     Curso = st.expander('Cursos Complementares')
     with Curso:
-        st.write('-Python para Engenheiros e Cientistas - 19,5 Horas - Udemy[05/2022]')
-        st.write('-Introdução ao Tableau - 5 Horas - EIA[04/2022]')
-        st.write('-Machine Learning com Python - 3 Horas - Regressão Linear - DataViking[04/2022]')
-        st.write('-SQL com Python - 3 Horas - DataViking[04/2022]')
-        st.write('-Microsoft PowerBI para DataScience - 72 Horas - DataScience Academy[04/2022]')
-        st.write('-Visualização de Dados(DataViz) - 10 Horas - Estidados[04/2022]')
-        st.write('-Python para Iniciantes - 5 Horas - EIA[04/2022]')
-        st.write('-Python para Iniciantes - 5 Horas - EIA[04/2022]')
-        st.write('-Pyhton para Análise de Dados - 12 Horas - Udemy[04/2022]')
-        st.write('-Dashboards Matadores: Domine a Arte de Aprensentação de Dados - 3 Horas - EIA[03/2022]')
-        st.write('-Data Science para Iniciantes - 3 Horas - EIA[03/2022]')
-        st.write('-Python Fundamentos para Análise de Dados - 60 Horas - DataScience Academy[03/2022]')
-        st.write('-LGDP: Registro das Operações de tratamento de Dados Pessoais - 3 Horas - Udemy[03/2022]')
-        st.write('-LGDP Zero: Conceitos fundamentais de Proteção Dados Pessoais  - 1,5 Horas - EIA[03/2022]')
-        st.write('-Python - Mundo 1 - 40 Horas - Cruso em Vídeo[03/2022]')
-        st.write('-Técnicas Avançadas de Python - 2Horas - LinkedinLearning[02/2022]')
-        st.write('-Fundamentos do Big Data: Técnicas e Conceitos - 2Horas - LinkedinLearning[02/2022]')
-        st.write('-Big Data Fundamentos 3.0 - 12 Horas - DataScience Academy[02/2022]')
-        st.write('-Python para Ciência de Dados: Formação Básica - 4 Horas - LinkedinLearning[02/2022]')
-        st.write('-Data Science: Visualização de dados com Python - 2 Horas - DiegoMariano[02/2022]')
-        st.write('-Conformidade com a LGPD: O Impacto em Empresas Brasileiras - 1 Hora - LinkedinLearning[02/2022]')
-        st.write('-LGPD Política de Privacidade e Proteção de Dados Pessoais - 4 Horas - Udemy[02/2022]')
-        st.write('-Fundamentos da Ciência de Dados - 3 Horas - LinkedinLearning[01/2022]')
-        st.write('-Introducao a Ciência de Dados - 12 Horas - DataScience Academy[01/2022]')
-        st.write('-Descubra o Pythons - 2 Horas - LinkedinLearning[01/2022]')
-        st.write('-Introdução ao Python - 2 Horas - DiegoMariano[01/2022]')
-        st.write('-Oracle Apllication Express - APEX - Básico - 4 Horas - Udemy[03/2021]')
-        st.write('-Power BI - Do Básico ao Avançado - 9,5 Horas - Udemy[02/2021]')
-        st.write('Fundamentos Scrum - 1,5 Horas - Udemy[01/2021]')
-        st.write('-Introdução ao Sistema Operacional Linux - 2 Horas - DiegoMariano[01/2021]')
-        st.write('-Introdução ao banco de dados MySQL - 0,5 Horas - DiegoMariano[01/2021]') 
+        st.write('''
+        -Python para Engenheiros e Cientistas - 19,5 Horas - Udemy[05/2022]<BR>
+        -Introdução ao Tableau - 5 Horas - EIA[04/2022]<BR>
+        -Machine Learning com Python - 3 Horas - Regressão Linear - DataViking[04/2022]<BR>
+        -SQL com Python - 3 Horas - DataViking[04/2022]<BR>
+        -Microsoft PowerBI para DataScience - 72 Horas - DataScience Academy[04/2022]<BR>
+        -Visualização de Dados(DataViz) - 10 Horas - Estidados[04/2022]<BR>
+        -Python para Iniciantes - 5 Horas - EIA[04/2022]<BR>
+        -Pyhton para Análise de Dados - 12 Horas - Udemy[04/2022]<BR>
+        -Dashboards Matadores: Domine a Arte de Aprensentação de Dados - 3 Horas - EIA[03/2022]<BR>
+        -Data Science para Iniciantes - 3 Horas - EIA[03/2022]<BR>
+        -Python Fundamentos para Análise de Dados - 60 Horas - DataScience Academy[03/2022]<BR>
+        -LGDP: Registro das Operações de tratamento de Dados Pessoais - 3 Horas - Udemy[03/2022]<BR>
+        -LGDP Zero: Conceitos fundamentais de Proteção Dados Pessoais  - 1,5 Horas - EIA[03/2022]<BR>
+        -Python - Mundo 1 - 40 Horas - Cruso em Vídeo[03/2022]<BR>
+        -Técnicas Avançadas de Python - 2Horas - LinkedinLearning[02/2022]<BR>
+        -Fundamentos do Big Data: Técnicas e Conceitos - 2Horas - LinkedinLearning[02/2022]<BR>
+        -Big Data Fundamentos 3.0 - 12 Horas - DataScience Academy[02/2022]<BR>
+        -Python para Ciência de Dados: Formação Básica - 4 Horas - LinkedinLearning[02/2022]<BR>
+        -Data Science: Visualização de dados com Python - 2 Horas - DiegoMariano[02/2022]<BR>
+        -Conformidade com a LGPD: O Impacto em Empresas Brasileiras - 1 Hora - LinkedinLearning[02/2022]<BR>
+        -LGPD Política de Privacidade e Proteção de Dados Pessoais - 4 Horas - Udemy[02/2022]<BR>
+        -Fundamentos da Ciência de Dados - 3 Horas - LinkedinLearning[01/2022]<BR>
+        -Introducao a Ciência de Dados - 12 Horas - DataScience Academy[01/2022]<BR>
+        -Descubra o Pythons - 2 Horas - LinkedinLearning[01/2022]<BR>
+        -Introdução ao Python - 2 Horas - DiegoMariano[01/2022]<BR>
+        -Oracle Apllication Express - APEX - Básico - 4 Horas - Udemy[03/2021]<BR>
+        -Power BI - Do Básico ao Avançado - 9,5 Horas - Udemy[02/2021]<BR>
+        -Fundamentos Scrum - 1,5 Horas - Udemy[01/2021]<BR>
+        -Introdução ao Sistema Operacional Linux - 2 Horas - DiegoMariano[01/2021]<BR>
+        -Introdução ao banco de dados MySQL - 0,5 Horas - DiegoMariano[01/2021]<BR><BR>    
+        ''',unsafe_allow_html= True)
     Certifi = st.expander('Certificações')
     with Certifi:
         st.write("""
