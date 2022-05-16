@@ -28,12 +28,12 @@ elif SideBar == 'Projeto Análise Secretaria de Saúde de João Pessoas(Power BI
     st.subheader('Projeto de Análise Salarial da Secretaria Municipal de João Pessoa no Ano de 2021 feito em Power BI')
     st.write('''
     Estes dados foram coletados atráves do Portal da Transparência deste Município.
-    O arquivo foi importado em CSV, através do próprio portal, e foram analisados o tipo de vínculo dos funcionários mais presentes, como também responder algumas perguntas, são elas:<br>
+    O arquivo foi importado em CSV, através do próprio portal, e foram analisados o tipo de vínculo dos funcionários mais presentes, como também responder algumas perguntas, são elas:<br><br>
     **1)** Qual foi o gasto salarial mensal?<br>
     **2)** Quais são os vínculos destes Servidores? e Existem quantos funcionários em cada um desses vínculos?<br>
     **3)** Qual a média salarial por mês?<br>
     **4)** Total salarial por tipo de salarial?<br>
-    **5)** Qual a média salarial?
+    **5)** Qual a média salarial?<br>
     ''', unsafe_allow_html=True)
     st.markdown('<iframe title="LabSMS" width="800" height="636" src="https://app.powerbi.com/view?r=eyJrIjoiMjExYzI4MDAtMTg2Zi00MzU0LWFiMzMtOTg1Y2YzNjliNTc1IiwidCI6IjM2ZjUxZmFhLThiYTItNDcxNy1iMmFlLTEwNTIxNzFjNjM0YiJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>', unsafe_allow_html=True)
 elif SideBar == 'Projeto Unicórnios':
