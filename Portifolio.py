@@ -20,11 +20,11 @@ st.set_page_config(page_title="Luciano Borba - Portifólio", page_icon="🖥", l
 
 st.title('Luciano Borba - Projetos')
 st.sidebar.title('Menu')
-SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Projeto Análise Secretaria de Saúde de João Pessoas(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro (MAGALU)','Projeto PS4','Projeto NBA','Projeto Renda Per Capita','Outros'])
+SideBar = st.sidebar.selectbox('Escolha o Projeto: ', ['Página Incial','Análise Secretaria de Saúde de João Pessoas(Power BI)','Projeto Unicórnios','Projeto Mercado Financeiro (MAGALU)','Projeto PS4','Projeto NBA','Projeto Renda Per Capita','Outros'])
 if SideBar == 'Página Incial':
     pi.Porti()
     
-elif SideBar == 'Projeto Análise Secretaria de Saúde de João Pessoas(Power BI)':
+elif SideBar == 'Análise Secretaria de Saúde de João Pessoas(Power BI)':
     st.subheader('Projeto de Análise Salarial da Secretaria Municipal de João Pessoa no Ano de 2021 feito em Power BI')
     st.write('''
     Estes dados foram coletados atráves do Portal da Transparência deste Município.
