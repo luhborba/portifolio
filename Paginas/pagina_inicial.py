@@ -6,15 +6,17 @@ def Porti():
     st.write('Trabalho na **Secretaria Municipal de Saúde de João Pessoa**, sou _Data Analytics_, atuo analisando dados organizacionais para auxiliar no planejamento financeiro da Secretaria.')
     st.write('')
     st.write('**-Tecnologia Utilizada: (Lista em Ordem de Experiência, Utilização e Habilidade)**')
-    st.write('-Linguagem Python')
-    st.write('-PowerBI')
-    st.write('-Excel/Google Sheets')
-    st.write('-SQL Server')
-    st.write('-MySQL')
-    st.write('-Oracle Database')
-    st.write('-Oracle Apex (Low Code)')
-    st.write('-Tableau Public')
-    st.write('-Linguagem R')
+    st.write('''
+    -Linguagem Python<br>
+    -PowerBI<br>
+    -Excel/Google Sheets<br>
+    -SQL Server<br>
+    -MySQL<br>
+    -Oracle Database<br>
+    -Oracle Apex (Low Code)<br>
+    -Tableau Public<br>
+    -Linguagem R<br><br>    
+    ''',unsafe_allow_html= True)
     FAcad = st.expander('Formação Acadêmica')
     with FAcad:
         st.write('**-Formado em Gestão da Tecnologia da Informação - Nível Tecnologo - FPB - 2012.1 a 2014.1**')
