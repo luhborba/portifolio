@@ -19,9 +19,11 @@ def Porti():
     ''',unsafe_allow_html= True)
     FAcad = st.expander('Formação Acadêmica')
     with FAcad:
-        st.write('**-Formado em Gestão da Tecnologia da Informação - Nível Tecnologo - FPB - 2012.1 a 2014.1**')
-        st.write('**-Em Andamento - Pós-Graduação em Analise de Dados - Descomplica - 03/2022**')
-        st.write('**-Em Andamento - MBA em Business Intelligence - Descomplica - 04/2022**')
+        st.write('''
+        **-Formado em Gestão da Tecnologia da Informação - Nível Tecnologo - FPB - 2012.1 a 2014.1**<br>
+        **-Em Andamento - Pós-Graduação em Analise de Dados - Descomplica - 03/2022**<BR>
+        **-Em Andamento - MBA em Business Intelligence - Descomplica - 04/2022**<BR><BR>
+        ''',unsafe_allow_html= True)
     Exp = st.expander('Experiência')
     with Exp:
         st.write('**-Analista de Dados - Secretaria Municipal de Saúde de João Pessoa - 01/04/2022 [Emprego Atual]**')
