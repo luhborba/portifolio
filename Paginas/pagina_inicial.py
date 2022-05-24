@@ -35,6 +35,7 @@ def Porti():
     Curso = st.expander('Cursos Complementares')
     with Curso:
         st.write('''
+        -Power Bi para Todos - 5 Horas - EIA[05/2022]<BR>
         -Python para Engenheiros e Cientistas - 19,5 Horas - Udemy[05/2022]<BR>
         -Introdução ao Tableau - 5 Horas - EIA[04/2022]<BR>
         -Machine Learning com Python - 3 Horas - Regressão Linear - DataViking[04/2022]<BR>
