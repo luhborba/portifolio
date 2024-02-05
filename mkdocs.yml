@@ -2,3 +2,4 @@ site_name: Portifólio Luciano Borba
 
 theme:
     name: dracula
+    logo: /img/logo.jpg
