@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 mkdocs = "^1.5.3"
 mkdocs-dracula-theme = "^1.0.7"
+pymdown-extensions = "^10.7"
 
 
 [build-system]

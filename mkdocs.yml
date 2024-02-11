@@ -3,3 +3,7 @@ site_name: Portifólio Luciano Borba
 theme:
     name: dracula
     logo: assets/img/logo.jpg
+    favicon: assets/img/favicon.ico
+
+markdown_extensions:
+    - pymdownx.emoji
