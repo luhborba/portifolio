@@ -1,5 +1,5 @@
 # Bem vindo ao Meu Portifólio
-]
+
 Se você deseja ver a página deste portifólio [Clique Aqui](https://luhborba.github.io/portifolio/)
 
 Para utilização desse projeto você de Possuir o `Pyenv` e `Poetry` instalado na sua maquina, caso não tenha segue links a seguir sobre instalação:
