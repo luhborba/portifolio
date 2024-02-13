@@ -37,3 +37,9 @@ Sou torcedor do Flamengo e Botafogo-PB, hoje não acompanho tanto mais o futebol
 Neste espaço digital, compartilho não apenas minhas realizações profissionais, mas também um pouco da minha essência como indivíduo. Espero que essa visita proporcione uma visão mais completa de quem sou, tanto como profissional de dados quanto como pessoa.
 
 Sinta-se à vontade para explorar e descobrir mais sobre mim e meu trabalho.
+
+<h3 align="left">Se conecte comigo:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/luhborba" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="luhborba" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@luhborba" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="luciano borba" height="30" width="40" /></a>
+</p>
