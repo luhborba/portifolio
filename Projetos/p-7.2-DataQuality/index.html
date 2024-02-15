@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-        <title>Projeto Deputados - 1ª Versão - Luciano Borba</title>
+        <title>Data Quality - Luciano Borba</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -130,7 +130,7 @@
         <a href="../p-7.1-DataGlowUP25/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
-            Projeto 5DataGlowUP nº 25
+            5DataGlowUP nº 25
         </a>
     </li>
                             
@@ -138,7 +138,15 @@
         <a href="./"
             class=" active 
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
-            Projeto Deputados - 1ª Versão
+            Data Quality
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../p-7.3-Deputados/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Deputados - 1ª Versão
         </a>
     </li>
                     </ul>
@@ -178,8 +186,8 @@
                     </a>
                 </div>
                 <div class="col">
-                    <a 
-                        class="btn-preview drac-btn drac-text-white--hover disabled" style="padding-left: 3%;">
+                    <a href="../p-7.3-Deputados/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
                         Next <i class="fa fa-arrow-right"></i>
                     </a>
                 </div>
@@ -215,21 +223,117 @@
             <!-- block content -->
                 <section class="p-md-5 section-content">
     <article>
-        <p><h1 id="projeto-deputados-1a-versao">Projeto Deputados - 1ª Versão</h1>
-<p>[Em Desenvolvimento]</p>
+        <p><h1 id="data-quality">Data Quality</h1>
+<p>Este projeto de Data Quality foi desenvolvido após Workshop do <a href="https://www.linkedin.com/in/lucianovasconcelosf/">Luciano Vasconcelos Filho</a></p>
 <p><strong>GitHub do Projeto:</strong> <a href="https://github.com/luhborba/projeto_camara_deputados">Deputados-LuhBorba</a><br>
-<strong>Playlist Youtube Codando</strong> <img alt="📹" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4f9.png" title=":video_camera:" /> <a href="https://youtube.com/playlist?list=PL8rfA4a53x0RuhfvfZcW5KtOSOEE0HKUA&amp;si=5Gk2TD2t_hV-u24I">Passo-a-Passo do Projeto - Youtube</a></p>
+<strong>Documentação do Projeto:</strong>  <a href="https://luhborba.github.io/workshop-free-lgalvao/">Documentacao</a><br></p>
 <h2 id="stack-do-projeto">Stack do Projeto</h2>
 <ul>
-<li>Python</li>
-<li>Pandas</li>
-<li>PySpark</li>
-<li>Jupyter Notebook</li>
-<li>Google Colaboratory</li>
-<li>PGAdmin 4</li>
-<li>PostgreSQL</li>
+<li>python</li>
+<li>streamlit</li>
+<li>selenium</li>
+<li>pytest</li>
+<li>taskipy</li>
+<li>pydantic</li>
+<li>openpyxl</li>
+<li>mkdocs</li>
+<li>mkdocstrings</li>
+<li>mkdocs-material</li>
 </ul>
-<h2 id="proposta-do-projeto">Proposta do Projeto</h2></p>
+<h2 id="proposta-do-projeto">Proposta do Projeto</h2>
+<p>O projeto tem como objetivo realizar um processo de validação de estrutura de uma planilha no Excel, considerando que hoje no mundo corporativo esta é uma ferramenta amplamente usada, assim buscando definições padrões para envios de dados considerando um estrutura de contrato pre-definida.</p>
+<p>A abordagem utilizada é criar um App no Streamlit que realize todo processo de validação, ferramenta com criação de testes, buscando assim um qualidade no dado enviado.</p>
+<h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
+<p>O projeto está basicamente dividido em 4 (quatro) arquivos, todos eles dentro da pasta <code>src</code>.</p>
+<ul>
+<li>app.py</li>
+<li>backend.py</li>
+<li>contrato.py</li>
+<li>frontend.py</li>
+</ul>
+<h3 id="apppy">App.py</h3>
+<p>Aqui é particularmente faço a união entre o frontend e backend, carregando assim todas as validações propostas no backend e trazendo todos os visuais carregados no frontend.</p>
+<pre><code class="language-python"># Importando Classe do Arquivo FrontEnd
+from frontend import ExcelValidadorUI
+# Importando Função do Arquivo BackEnd
+from backend import process_excel
+
+def main():
+    ui = ExcelValidadorUI()
+    ui.display_header()
+
+    upload_file = ui.upload_file()
+
+    if upload_file:
+        result, error = process_excel(upload_file)
+        ui.display_result(result, error)
+
+if __name__ == &quot;__main__&quot;:
+    main()
+</code></pre>
+<h3 id="frontendpy">Frontend.py</h3>
+<p>Este arquivo é para configuração do frontend da página, assim deixando de forma separada do <code>app.py</code>.</p>
+<pre><code class="language-python"># Importando Streamlit
+import streamlit as st
+
+# Criando Classe para FrontEnd, para melhor organização e uso
+class ExcelValidadorUI:
+
+    def __init__(self):
+        self.set_page_config()
+
+    # Criando função para configuração das páginas
+    def set_page_config(self):
+        st.set_page_config(
+            page_title=&quot;Validador de Planilha&quot;,
+            page_icon=&quot;:snake:&quot;
+        )
+
+    # Criando função para Header da página
+    def display_header(self):
+        st.title(&quot;Insira sua planilha para realizar a validação!&quot;)
+
+    # Criando função para o componente de file uploader
+    def upload_file(self):
+        return st.file_uploader(&quot;Carregue sua planilha&quot;, type=[&quot;xlsx&quot;])
+
+    # Criando função especifica para mostragem de error
+    def display_result(self, result, error):
+        if error:
+            st.error(f&quot;Erro na validação: {error}&quot;)
+        else:
+            st.success(&quot;A planilha está correta&quot;)
+</code></pre>
+<h3 id="backendpy">Backend.py</h3>
+<p>Este arquivo é para configuração do backend da página, fazendo toda validação dos arquivos 'xlsx'.</p>
+<pre><code class="language-python"># Importando Pandas
+import pandas as pd
+# Importando classe de Vendas do arquivo de contratos.py
+from contrato import Vendas
+
+# Criando função de validação do arquivo excel
+def process_excel(uploaded_file):
+    try:
+        df = pd.read_excel(uploaded_file)
+
+        # Verificando se há colunas extras
+        extras_cols = set(df.columns) - set(Vendas.model_fields.keys())
+        if extras_cols:
+            return False, f&quot;Existem mais colunas que o necessário: {', '.join(extras_cols)}&quot;
+
+        # Validar cada linha com o contrato
+        for index, row in df.iterrows():
+            try:
+                _ = Vendas(**row.to_dict())
+            except Exception as e:
+                raise ValueError(f&quot;Erro na linha {index + 2}: {e}&quot;)
+
+        return True, None
+    except ValueError as ve:
+        return False, str(ve)
+    except Exception as e:
+        return False, f&quot;Erro Inesperado: {str(e)}&quot;
+</code></pre></p>
     </article>
 </section>
             <!-- endblock -->
