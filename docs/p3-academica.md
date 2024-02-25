@@ -74,7 +74,7 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 - Introdução à Ciência de Dados 3.0 - 12 Horas - **Data Science Academy** [Janeiro/2022]
 - Fundamentos da Ciência de Dados - 3 Horas - **LinkedIn Learning** [Janeiro/2022]
 
-# Outros
+### Outros
 - Formação Começando em Cloud Computing - 6 Cursos - 53 Horas - **Alura** [Outubro/2023]
 - Formação Django: Crie Aplicações em Python - 4 Cursos - 38 Horas - **Alura** [Maio/2023]
 - Python começando com a linguagem - 12 Horas - **Alura** [Abril/2023]
