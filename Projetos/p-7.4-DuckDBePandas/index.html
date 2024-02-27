@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <title>DuckDB x Pandas - Luciano Borba</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        
+        
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="../../assets/css/darcula-highlight.min.css">
+
+        <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../../assets/css/mkdocs.min.css">
+
+        
+            <link  rel="icon" type="image/x-icon" href="../../assets/img/favicon.ico">
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+                <script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+
+<body class="drac-bg-black-secondary drac-text-grey-ternary drac-text drac-scrollbar-purple">
+
+    <main class="d-flex">
+
+        <!-- block sidebar -->
+            <nav id="sidebar" class="sidebar drac-bg-black">
+    <div class="custom-menu">
+        <button type="button" id="sidebarCollapse" class="btn btn-primary">
+            <i class="fa fa-bars"></i>
+            <span class="sr-only">Menu</span>
+        </button>
+    </div>
+
+    <div class="p-4">
+        
+            <img class="logo" src="../../assets/img/logo.jpg" height="150px">
+        
+
+        <div class="drac-text-center">
+            
+                <span class="drac-text drac-line-height drac-text-white">Luciano Borba</span>
+            
+        </div>
+
+        <div class="drac-box flex-column">
+            <ul class="dot-ul">
+                <li><div class="dot-li drac-bg-cyan"></div></li>
+                <li><div class="dot-li drac-bg-green"></div></li>
+                <li><div class="dot-li drac-bg-orange"></div></li>
+                <li><div class="dot-li drac-bg-pink"></div></li>
+                <li><div class="dot-li drac-bg-purple"></div></li>
+                <li><div class="dot-li drac-bg-red"></div></li>
+                <li><div class="dot-li drac-bg-yellow"></div></li>
+            </ul>
+        </div>
+
+        <hr class="drac-divider" />
+
+        <!-- block menu -->
+        <ul class="mb-5 drac-list drac-list-none">
+            
+            <li class="drac-box">
+                <a href="../.."
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Página Inicial
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../p2-sobre/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Sobre
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../p3-academica/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Vida Acadêmica
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../p4-experiencia/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Experiência Profissional
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../p5-habilidades/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Habilidades
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../p6-youtube/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Canal Youtube
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../../pn-contato/"
+                    class="
+                    drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+                    Contato
+                </a>
+            </li>
+            <li class="drac-box">
+                <a href="../.."
+                    class=" active 
+                    drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
+                    data-bs-toggle="collapse" data-bs-target="#projetos-collapse" aria-expanded="false">
+                    Projetos
+                </a>
+                <div class="collapse" id="projetos-collapse">
+                    <ul class="mb-5 drac-list drac-list-none">
+                            
+    <li class="drac-box-ternary">
+        <a href="../p-7.1-DataGlowUP25/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            5DataGlowUP nº 25
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../p-7.2-DataQuality/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Data Quality
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="../p-7.3-Deputados/"
+            class="
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            Deputados - 1ª Versão
+        </a>
+    </li>
+                            
+    <li class="drac-box-ternary">
+        <a href="./"
+            class=" active 
+            drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
+            DuckDB x Pandas
+        </a>
+    </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!-- endblock -->
+    </div>
+</nav>
+        <!-- endblock -->
+
+        <nav class="divider drac-bg-purple-cyan"></nav>
+
+        <div class="content">
+            <!-- block header -->
+                <header>
+    <nav class="navbar navbar-expand-xl drac-bg-purple">
+        <div class="container-fluid">
+            
+            <button class="navbar-toggler w-100 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsMenu"
+                aria-controls="navbarsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-column ml-auto" id="navbarsMenu">
+                <ul class="navbar-nav text-md-center">
+
+                    <!-- block preview -->
+                    <li class="nav-item">
+                            
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../p-7.3-Deputados/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a 
+                        class="btn-preview drac-btn drac-text-white--hover disabled" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block search -->
+                    <li class="nav-item"><div role="search" class="search-box">
+	<form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
+		placeholder="Search docs" title="Type search term here" />
+	</form>
+</div>
+                    </li>
+                    <!--  endblock -->
+
+                    <!-- block source -->
+                    <li class="nav-item">
+                        
+                    </li>
+                    <!--  endblock -->
+
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+            <!-- endblock -->
+
+            <!-- block content -->
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="duckdb-x-pandas">DuckDB x Pandas</h1>
+<p>Git do Projeto: <a href="https://github.com/luhborba/duckdb-primeirouso">DuckDb</a></p>
+<p>A ideia do projeto é gerar dados de acordo com o desejo do usuário, para que possamos simular uma situação real de utilização de dados, para tratamento comparando o desempenho do Pandas e DuckDB</p>
+<h2 id="regras-de-negocio">Regras de Negócio</h2>
+<p>Para esse projeto o Gestor solicitou que fosse extraido o resultado do total de vendas, como também total de vendas por produtos e por clientes. Para gerar arquivos nos formatos csv e parquet, destas informações para o time de DataViz poder criar incríveis e infaliveis dashboards.</p>
+<h2 id="estrutura">Estrutura</h2>
+<p>Basicamente o projeto contém 2 arquivos python, responsáveis pela geração dos dados, e outros arquivos de ETL com python, usando pandas e duckdb;</p>
+<h3 id="geradorpy">gerador.py</h3>
+<p>O arquivo <code>gerador.py</code> é responsável pela função de geração de dados, como também de criação de pastas para armazenar estes dados.</p>
+<p>Primeiramente a etapa de importações:</p>
+<pre><code class="language-python">import csv
+import os
+from random import choice
+
+from faker import Faker
+from tqdm import tqdm
+</code></pre>
+<p>Criando Estruturas a serem usadas:</p>
+<pre><code class="language-python"># Criando Dicionário de Produtos
+lista_produtos = {
+    &quot;Computador&quot;: 2000,
+    &quot;Celular Xiaomi&quot;: 1000,
+    &quot;Celular Samsung&quot;: 1500,
+    &quot;Celular Iphone&quot;: 5000,
+    &quot;Monitor&quot;: 700,
+    &quot;Teclado&quot;: 50,
+    &quot;Mouse&quot;: 20,
+    &quot;HeadSet&quot;: 100,
+    &quot;HeadSet JBL&quot;: 250,
+    &quot;Carregador Iphone&quot;: 105,
+    &quot;Carregador Samsung&quot;: 80,
+    &quot;Carregador Xiaomi&quot;: 90,
+    &quot;Carregador Motorola&quot;: 100,
+    &quot;Carregador Nokia&quot;: 110,
+    &quot;PenDrive 4 GB&quot;: 20,
+    &quot;PenDrive 8 GB&quot;: 30,
+    &quot;PenDrive 16 GB&quot;: 40,
+}
+
+# Criando Lista de Clientes, para ser possível o controle de quantidade de clientes
+cliente = []
+</code></pre>
+<p>Iniciando Função de geração:</p>
+<pre><code class="language-python"># Definindo fução para gerar dados
+def gerando_dados(
+    total_linhas: int, total_clientes: int, nome_arquivo: str, tamanho_bloco: int = 100
+):
+    # Invocando a biblioteca faker
+    falso = Faker()
+
+    # Criando Arquivo
+    with open(nome_arquivo, &quot;w&quot;, newline=&quot;&quot;) as file:
+        escrever = csv.writer(file)
+        escrever.writerow(
+            [&quot;Cliente&quot;, &quot;Data_Compra&quot;, &quot;Produto&quot;, &quot;ValorProduto&quot;, &quot;Quantidade&quot;]
+        )
+
+        # Definindo Lista aleatória de clientes
+        for _ in range(total_clientes):
+            cliente.append(falso.name())
+
+        # Criando Lista para armazenar os dados
+        data = []
+        # Interando Barra de Progresso considerando o total de linhas, para gerar dados
+        for i in tqdm(range(total_linhas), desc=&quot;Progresso&quot;, unit=&quot;linha&quot;):
+            produto = choice(list(lista_produtos.keys()))
+            data.append(
+                [
+                    choice(cliente), # Escolhendo Cliente
+                    falso.date(), # Gerando Data Aleatória
+                    produto, # Escolhendo Produto previsto na lista
+                    lista_produtos[produto], # Escolhendo Valor
+                    falso.random_number(1, 10), # Definindo Quantidade
+                ]
+            )
+
+            # Progressão dos dados na Barra
+            if i % tamanho_bloco == tamanho_bloco - 1:
+                escrever.writerows(data)
+                data = []
+
+        if data:
+            escrever.writerows(data)
+
+    print(&quot;Dados gerados com sucesso!&quot;)
+</code></pre>
+<p>Agora por fim neste arquivo temos a função responsável pela verificação e criação das pastas onde será armazenados os dados:</p>
+<pre><code class="language-python">def criar_pastas(diretorio_atual):
+    &quot;&quot;&quot;
+    Cria a estrutura de pastas 'data/csv/' e 'data/parquet/' na pasta atual.
+
+    Args:
+      diretorio_atual: Caminho da pasta atual.
+    &quot;&quot;&quot;
+
+    pastas = [&quot;data/csv/&quot;, &quot;data/parquet/&quot;]
+
+    for pasta in pastas:
+        diretorio_completo = os.path.join(diretorio_atual, pasta)
+
+        # Verifica se o diretório existe
+        if not os.path.exists(diretorio_completo):
+            # Cria o diretório
+            os.makedirs(diretorio_completo)
+            print(f&quot;Diretório '{diretorio_completo}' criado com sucesso!&quot;)
+
+</code></pre>
+<h3 id="gerarpy">gerar.py</h3>
+<p>Agora temos também o arquivo gerar, responsável apenas para chamar as funções do arquivo anterior definindo os parametros:</p>
+<pre><code class="language-python">from gerador import gerando_dados, criar_pastas
+import os
+
+gerando_dados(100000000, 20000, &quot;dados.csv&quot;)
+
+# Obtém o diretório atual
+diretorio_atual = os.getcwd()
+
+# Cria as pastas
+criar_pastas(diretorio_atual)
+</code></pre>
+<h3 id="teste01-duck-csvpy-processo-de-etl-usando-python-duckdb-para-arquivo-csv">teste01-duck-csv.py (Processo de ETL usando Python + DuckDB, para arquivo CSV)</h3>
+<p>Script para realizar ETL dos dados e exportar em CSV, utilizando a biblioteca DuckDB</p>
+<pre><code class="language-python">import duckdb
+import time
+
+print(&quot;Iniciando CSV ...&quot;)
+# Registrando o tempo de início
+inicio = time.time()
+
+# Conectando ao banco de dados DuckDB
+con = duckdb.connect()
+
+# Carregando dados
+con.execute(&quot;CREATE TABLE dados AS SELECT * FROM read_csv('dados.csv');&quot;)
+
+# Criando nova coluna de Valor Total
+con.execute(&quot;ALTER TABLE dados ADD COLUMN ValorTotal DECIMAL(10,2)&quot;)
+con.execute(&quot;UPDATE dados SET ValorTotal = ValorProduto * Quantidade&quot;)
+
+# Salvando dados-duck.csv
+con.execute(&quot;COPY (SELECT * FROM dados) TO 'data/csv/dados-duck.csv'&quot;)
+
+# Salvando total_vendas_produtos-duck.csv
+con.execute(
+    &quot;COPY (SELECT Produto, SUM(ValorTotal) AS TotalVendas FROM dados GROUP BY Produto ORDER BY TotalVendas DESC) TO 'data/csv/total_vendas_produtos-duck.csv'&quot;
+)
+
+# Salvando total_vendas_cliente-duck.csv
+con.execute(
+    &quot;COPY (SELECT Cliente, SUM(ValorTotal) AS TotalVendas FROM dados GROUP BY Cliente ORDER BY TotalVendas DESC) TO 'data/csv/total_vendas_cliente-duck.csv'&quot;
+)
+
+# Fechando a conexão com o banco de dados
+con.close()
+
+# Registrando o tempo de término
+fim = time.time()
+
+# Calculando o tempo de execução
+tempo_execucao = fim - inicio
+
+print(&quot;Finalizado com Sucesso!!!&quot;)
+print(f&quot;Tempo de execução: {tempo_execucao:.2f} segundos&quot;)
+
+</code></pre>
+<h3 id="teste02-pd-csvpy-processo-de-etl-usando-python-pandas-para-arquivo-csv">teste02-pd-csv.py (Processo de ETL usando Python + Pandas, para arquivo CSV)</h3>
+<p>Script para realizar ETL dos dados e exportar em CSV, utilizando a biblioteca Pandas</p>
+<pre><code class="language-python">import pandas as pd
+import time
+import os
+
+
+print(&quot;Iniciando CSV.....!!!&quot;)
+# Registrando o tempo de início
+inicio = time.time()
+
+# Carregando dados
+df = pd.read_csv(&quot;./dados.csv&quot;)
+
+# Criando nova coluna de Valor Total
+df[&quot;ValorTotal&quot;] = df[&quot;ValorProduto&quot;] * df[&quot;Quantidade&quot;]
+
+# Verificando o total de vendas por produtos
+total_vendas_produtos = df.groupby(&quot;Produto&quot;)[&quot;ValorTotal&quot;].sum().reset_index()
+total_vendas_produtos = total_vendas_produtos.rename(
+    columns={&quot;ValorTotal&quot;: &quot;TotalVendas&quot;}
+)
+total_vendas_produtos = total_vendas_produtos.sort_values(
+    by=&quot;TotalVendas&quot;, ascending=False
+)
+
+
+# Verificando o total de vendas por clientes
+total_vendas_cliente = df.groupby(&quot;Cliente&quot;)[&quot;ValorTotal&quot;].sum().reset_index()
+total_vendas_cliente = total_vendas_cliente.rename(
+    columns={&quot;ValorTotal&quot;: &quot;TotalVendas&quot;}
+)
+total_vendas_cliente = total_vendas_cliente.sort_values(
+    by=&quot;TotalVendas&quot;, ascending=False
+)
+
+# Salvando DF em CSV
+df.to_csv(&quot;data/csv/dados-pandas.csv&quot;, index=False)
+
+# Salvando DF de Total De Vendas por Produto
+total_vendas_produtos.to_csv(&quot;data/csv/total_vendas_produtos-pandas.csv&quot;, index=False)
+
+# Salvando DF de Total De Vendas por Cliente
+total_vendas_cliente.to_csv(&quot;data/csv/total_vendas_cliente-pandas.csv&quot;, index=False)
+
+# Registrando o tempo de término
+fim = time.time()
+
+# Calculando o tempo de execução
+tempo_execucao = fim - inicio
+print(&quot;Finalizado com Sucesso!!!&quot;)
+print(f&quot;Tempo de execução: {tempo_execucao:.2f} segundos&quot;)
+
+</code></pre>
+<h2 id="resultado">Resultado</h2>
+<p>Ao utilizar o pandas para o tratamento de dados o mesmo desempenho todas o pipeline de dados em aproximadamente 1.008 segundos (Cerca de 16 minutos), exportando os dados tanto em csv, como também em parquet. Conforme imagem abaixo:</p>
+<p><img alt="Image" src="../../assets/img/pandas.png" /></p>
+<p>Ao utilizar o DuckDB, para realizar o mesmo pipeline de dados ele levou 584,83 segundos (Menos de 10 minutos). Conforme imagem abaixo:</p>
+<p><img alt="Imagem" src="../../assets/img/duckdb.png" /></p>
+<p>-- <strong>O DuckDB teve uma perfomace 72% melhor do que o Pandas</strong></p>
+<h2 id="configuracao-do-computador-utilizado">Configuração do Computador Utilizado</h2>
+<ul>
+<li>Processador: AMD Ryzen 3 5300U with Radeon Graphics 2.6 Ghz</li>
+<li>RAM: 8 GB DDR-4</li>
+<li>SSD Sata: 256 GB</li>
+<li>SO: Windows 11 23H2</li>
+</ul>
+<h2 id="stack-utilizada-no-projeto">Stack Utilizada no Projeto</h2>
+<ul>
+<li>Python</li>
+<li>Pandas</li>
+<li>Faker</li>
+<li>DuckDB</li>
+<li>Pyarrow</li>
+<li>Fastparquet</li>
+<li>TQDM</li>
+<li>Taskipy</li>
+<li>Mkdocs</li>
+</ul></p>
+    </article>
+</section>
+            <!-- endblock -->
+
+            <!-- block footer -->
+                <footer>
+    <div class="d-flex flex-sm-row justify-content-between py-2 border-top drac-text-black drac-bg-cyan-green">
+        <a href="https://github.com/dracula/mkdocs" target="_blank" style="padding-left: 1%;"
+            class="footer-text drac-anchor drac-text-black drac-text-purple--hover">
+            Made with Dracula Theme for MkDocs
+        </a>
+    </div>
+</footer>
+            <!-- endblock -->
+        </div>
+
+    </main>
+
+        <script>var base_url = '../..';</script>
+        <script src="../../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../../assets/js/mkdocs.js"></script>
+			<script src="../../search/main.js" defer></script>
+
+</body>
+
+</html>
