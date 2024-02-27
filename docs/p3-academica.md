@@ -14,6 +14,7 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 ## Cursos Livres
 
 ### Engenharia de Dados
+- Azure Para Engenharia de Dados - 4 Horas - **EscolaTrabalhador4.0**   [Fevereiro/2024]
 - Workshop 2 - Jornada de Dados 2024 - Pydantic, DataQuality e TDD para dados - 4 Horas - **Luciano Galvão**  [Fevereiro/2024]
 - Workshop Data Science - Databricks, Spark e WebScraping - 4 Horas - **Data Viking** [Janeiro/2024]
 - Databricks: Trabalhando com Diversos Formatos e Tipos de Arquivos - 8 Horas - **Alura** [Dezembro/2023]
