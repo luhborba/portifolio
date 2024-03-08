@@ -46,6 +46,7 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 - Power BI Completo - 9 Horas - **Udemy - João Paulo** [Fevereiro/2021]
 
 ### Governança:
+- Governança de TI: A Importância da Gestão do Conhecimento - 8 Horas - **Alura** [Março/2023]
 - Governança de TI: Gestão de Mudanças Organizacionais e de TI - 8 Horas - **Alura** [Fevereiro/2024]
 - Governança de TI: Gestão de Requisitos no Contexto Ágil - 8 Horas - **Alura** [Fevereiro/2024]
 - Governança de TI: Gestão de Requisitos no Contexto Ágil - 8 Horas - **Alura** [Fevereiro/2024]
