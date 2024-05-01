@@ -14,6 +14,9 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 ## Cursos Livres
 
 ### Engenharia de Dados
+- Construindo uma API do Zero com Deploy - 4 Horas - **Jornada de Dados - Luciano Galvão** [Abril/2024]
+- Bootcamp de SQL para Analytics Engineer - 8 Horas - **Jornada de Dados - Luciano Galvão** [Abril/2024]
+- Aprenda a Criar Produtos de BI - 2 Horas - **Arruda Data Consultant0** [Abril/2024]
 - Orquestrando suas ETLs com Airflow - 4 Horas - **Jornada de Dados - Luciano Galvão** [Março/2024]
 - Docker para Analista e Engenheiro de Dados: Ajudando seu Deploy - 4 Horas - **Jornada de Dados - Luciano Galvão** [Março/2024]
 - Azure Para Engenharia de Dados - 4 Horas - **EscolaTrabalhador4.0**   [Fevereiro/2024]
