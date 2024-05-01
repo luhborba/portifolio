@@ -6,7 +6,8 @@ Aqui estarei descrevendo algumas das minhas principais experiências.
 
 **Gerente de Projetos e Governança de Dados** na *Secretaria Municipal de Saúde de João Pessoa* da **Prefeitura Municipal de João Pessoa**
 
-- **Início**: 01/01/2024 [Emprego Atual]<br> 
+- **Início**: 01/01/2024
+- **Saída**: 30/04/2024 
 - **Atribuições**: 
 
 
