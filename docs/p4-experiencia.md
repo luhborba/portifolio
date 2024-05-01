@@ -4,6 +4,18 @@ Aqui estarei descrevendo algumas das minhas principais experiências.
 
 ---
 
+**Engenheiro de Dados** na *Secretaria de Saúde do Estado da Paraíba* da **Governo do Estado da Paraíba**
+
+- **Início**: 01/05/2024 **[Emprego Atual]**
+- **Atribuições**: 
+
+
+Minhas atribuições se iniciam no Rede Estadual de Dados em Saúde (REDS – PB), que tem o objetivo de consolidar os sistemas de saúde já existentes para auxiliar nas tomadas de decisão, buscando integrar mais de 200 sistemas informatizados utilizados pela Secretaria De Saúde, atuando com melhores práticas de ETL e ELT, como também com criação de Portal de Dados Abertos.
+
+Principais Ferramentas/Conceitos utilziados: SQL, Python, Airflow, ETL, ELT, CKAN, AirByte, MkDocs.
+
+---
+
 **Gerente de Projetos e Governança de Dados** na *Secretaria Municipal de Saúde de João Pessoa* da **Prefeitura Municipal de João Pessoa**
 
 - **Início**: 01/01/2024

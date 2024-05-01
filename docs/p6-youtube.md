@@ -1,5 +1,18 @@
 # Canal Youtube
 
+<div style="display: flex; justify-content: center;">
+  <div style="margin-right: 10px;">
+    <a href="http://youtube.com/@luhborba?sub_confirmation=1">
+      <img src="https://img.shields.io/youtube/channel/subscribers/UCN16u-GFjdNmVWlxBZvRqsQ" />
+    </a>
+  </div>
+  <div style="margin-left: 10px;">
+    <a href="http://youtube.com/@luhborba?sub_confirmation=1">
+      <img src="https://img.shields.io/youtube/channel/views/UCN16u-GFjdNmVWlxBZvRqsQ" />
+    </a>
+  </div>
+</div>
+
 [Link do Canal](https://www.youtube.com/@luhborba)
 
 Eu também estou produzindo conteúdo no Youtube, buscando falar sobre Projetos de Dados, tecnologias envolvidas no mundo de dados, como também um pouco sobre desenvolvimento, para que você possa me conhecer melhor vou contar uma pequena historia.
