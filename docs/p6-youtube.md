@@ -9,3 +9,24 @@ Eu fui forjado através do conteúdo gratuito, que me formou, me ensinou, me dir
 ![Imagem Youtube](../assets/img/youtube.png)
 
 Da aquela forcinha, se inscreva, curta e compartilhe. Espero que esse conteúdo ajude de alguma forma.
+
+
+## Playlists do Canal
+
+### Curso de Streamlit
+
+![Playlist Streamlit](../assets/img/playlist-Streamlit.png)
+
+[Curso de Streamlit](https://www.youtube.com/playlist?list=PL8rfA4a53x0Q3rnBuWkvYIQvGTj_iZHpb)
+
+### Desafio Data Glow UP nº 30
+
+![Playlist DataGlowUP nº 30](../assets/img/playlist-dataglowup.png)
+
+[Desafio DataGlowUP - Nº 30](https://www.youtube.com/playlist?list=PL8rfA4a53x0Q1FYbZr1VmduivvQceEvnl)
+
+### Projeto Câmara dos Deputados 2023
+
+![Playlist Câmara dos Deputados](../assets/img/playlist-CamaraDeputados.png)
+
+[Dados Câmara dos Deputados 2023](https://www.youtube.com/playlist?list=PL8rfA4a53x0RuhfvfZcW5KtOSOEE0HKUA)
