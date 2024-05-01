@@ -1,6 +1,6 @@
 # Udemy
 
-Atualmente tenho um perfil na Udemy, que neste momento conta apenas com um Curso Disponível, mas um dos meus objetivos é gera conteúdo relevante para os profissionais de dados possam desenvolver suas habilidades durante sua carreira, através de preços acessíveis, como também de cupons de descontos compartilhados frequentemente no meu perfil do LinkedIn.
+Atualmente tenho um perfil na Udemy, que neste momento conta apenas com um Curso Disponível, mas um dos meus objetivos é gerar conteúdo relevante para os profissionais de dados possam desenvolver suas habilidades durante sua carreira, através de preços acessíveis, como também de cupons de descontos compartilhados frequentemente no meu perfil do LinkedIn.
 
 ## Página da Udemy
 
