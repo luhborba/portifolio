@@ -1,6 +1,5 @@
 # Página Inicial
 
-**[Projeto Ainda em Construção]**
 
 Seja bem-vindo(a) ao meu universo de dados e projetos!
 
