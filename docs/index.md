@@ -13,7 +13,7 @@ A ideia de navegação, é que você possa visualizar de forma categorizada algu
 - Experiências: Contendo Informações sobre minhas experiencias profissionais;
 - Habilidades: Contendo minhas principais habilidades;
 - Canal Youtube: Falando um pouco sobre o trabalho que desenvolvo na produção de conteúdo no Youtube;
-- Cursos: Aqui falo sobre os cursos da área de dados que ministro nas plataformas Udemy e Kiwify;
+- Cursos Ministrados: Aqui falo sobre os cursos da área de dados que ministro na plataformas Udemy;
 - Projetos: Aqui você conseguira acessar meus principais projetos, e acompanhar passo-a-passo minhas tomadas de decisão;
 
 
