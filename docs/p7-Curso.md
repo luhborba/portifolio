@@ -1,6 +1,6 @@
 # Cursos Ministrados
 
-Atualmente tenho perfis nas Plataformas de Ensino Kiwify e Udemy, que neste momento contam apenas com um Curso Disponível, mas um dos meus objetivos é gerar conteúdo relevante para os profissionais de dados possam desenvolver suas habilidades durante sua carreira, através de preços acessíveis, como também de cupons de descontos compartilhados frequentemente no meu perfil do LinkedIn.
+Atualmente tenho perfil na Plataforma de Ensino Kiwify, que neste momento conta apenas com um Curso Disponível, mas um dos meus objetivos é gerar conteúdo relevante para os profissionais de dados possam desenvolver suas habilidades durante sua carreira, através de preços acessíveis, como também de cupons de descontos compartilhados frequentemente no meu perfil do LinkedIn.
 
 - Curso de Streamlit são 5 horas de conteúdo sobre esse framework python web, com 1 projeto prático.
 - Curso de Engenharia de Dados [Ainda em Desenvolvimento]
