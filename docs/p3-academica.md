@@ -14,6 +14,7 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 ## Cursos Livres
 
 ### Engenharia de Dados
+- Workshop DBT com BigQuery - 4 Horas - **Jornada de Dados - Luciano Galvão** [Junho/2024]
 - The Complete Hands-On Introduction to Apache Airflow - 3,5 Horas - **Udemy - Marc Lamberti** [Maio/2024]
 - Construindo uma API do Zero com Deploy P2- 4 Horas - **Jornada de Dados - Luciano Galvão** [Maio/2024]
 - Construindo uma API do Zero com Deploy P1- 4 Horas - **Jornada de Dados - Luciano Galvão** [Abril/2024]
