@@ -6,7 +6,7 @@ Curso de WSL, Linux e Docker, com foco para profissionais de dados.
 
 ![Página Kiwify](../assets/img/projetoknowwhat.png)<br>
 [Página do Curso](https://mailchi.mp/dfcb3bc4363f/linux-and-docker)<br>
-[Compre o Curso Clicando Aqui](https://pay.kiwify.com.br/lzHO5th)
+[Compre o Curso Clicando Aqui](https://pay.kiwify.com.br/lzHO5th)<br>
 - Utilize o CUPOM `PATRAOFICOUMALUCO`
 
 
