@@ -34,6 +34,8 @@ Meus jogos prediletos são:
 
 Sou torcedor do Flamengo e Botafogo-PB, hoje não acompanho tanto mais o futebol, devido a tempo e prioridade, como também não consigo ter mais acessos aos jogos de forma tão constante. Gosto bastante de competições.
 
+Também gosto bastante de animes, sempre gostei de assistir, hoje não acompanho tanto, mas sempre que vejo minhas filhas assistindo não perco a oportunidade de sentar junto e assistir com eles. Os meus preferidos são: **One Piece**, **Naruto**, **Bleach**, **Fairy Tail**, **Full Metal Alchemist**, entre outros.
+
 Neste espaço digital, compartilho não apenas minhas realizações profissionais, mas também um pouco da minha essência como indivíduo. Espero que essa visita proporcione uma visão mais completa de quem sou, tanto como profissional de dados quanto como pessoa.
 
 Sinta-se à vontade para explorar e descobrir mais sobre mim e meu trabalho.
