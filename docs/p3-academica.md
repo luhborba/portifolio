@@ -16,6 +16,8 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 ## Cursos Livres
 
 ### Engenharia de Dados
+- Apache Airflow: Extração de Dados - 10 Horas - **Alura** [Dezembro/2024]
+- Apache Airflow: Orquestrando seu primeiro Pipeline de Dados - 8 Horas - **Alura** [Dezembro/2024]
 - Engenharia de Dados com Google Dataflow e Apache Beam na GCP - 3,5 Horas - **Udemy - Cassio Bolba** [Outubro/2024]
 - Microsoft Fabric: Arquitetura e Engenharia de Dados - 5 Horas - **Udemy - Felipe Mafra** [Setembro/2024]
 - Workshop DBT com BigQuery - 4 Horas - **Jornada de Dados - Luciano Galvão** [Junho/2024]
@@ -91,6 +93,8 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 - Fundamentos da Ciência de Dados - 3 Horas - **LinkedIn Learning** [Janeiro/2022]
 
 ### Outros
+- Google Cloud Functions: Código Serverless - 6 Horas - **Alura** [Dezembro/2024]
+- Google Cloud Compute Engine: Escabilidade e alta disponibilidade - 9 Horas - **Alura**  [Dezembro/2024]
 - Formação Começando em Cloud Computing - 6 Cursos - 53 Horas - **Alura** [Outubro/2023]
 - Formação Django: Crie Aplicações em Python - 4 Cursos - 38 Horas - **Alura** [Maio/2023]
 - Python começando com a linguagem - 12 Horas - **Alura** [Abril/2023]
