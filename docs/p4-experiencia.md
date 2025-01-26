@@ -4,9 +4,21 @@ Aqui estarei descrevendo algumas das minhas principais experiências.
 
 ---
 
+**Engenheiro de Dados** na **Eletrobras**
+
+- **Início**: 14/08/2024 **[Emprego Atual]**
+- **Atribuições**: 
+
+Minhas esão focadas em organização de dados, gerenciamento de pipeline de dados, orquestração e automatização de rotinas de transformasção e extração de dados. Responsável por desenvolver e manter arquitetura de dados robustas e escalaveis. Atendendo clientes internos e externo e servindo dados para equipe de BI.
+
+Principais Ferramentas/Conceitos utilziados: Fabric, GCP, SQL, Python, Airflow, ETL, ELT.
+
+---
+
 **Engenheiro de Dados** na *Secretaria de Saúde do Estado da Paraíba* da **Governo do Estado da Paraíba**
 
-- **Início**: 01/05/2024 **[Emprego Atual]**
+- **Início**: [01/05/2024]
+- **Saída**: [13/08/2024]
 - **Atribuições**: 
 
 
@@ -18,7 +30,8 @@ Principais Ferramentas/Conceitos utilziados: SQL, Python, Airflow, ETL, ELT, CKA
 
 **Gerente de Projetos e Governança de Dados** na *Secretaria Municipal de Saúde de João Pessoa* da **Prefeitura Municipal de João Pessoa**
 
-- **Início**: 01/01/2024  **[Emprego Atual]**
+- **Início**: [01/01/2024]  
+- **Saída**: [13/08/2024]
 - **Atribuições**: 
 
 
