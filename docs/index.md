@@ -17,6 +17,11 @@ A ideia de navegação, é que você possa visualizar de forma categorizada algu
 - Projetos: Aqui você conseguira acessar meus principais projetos, e acompanhar passo-a-passo minhas tomadas de decisão;
 
 
+## **Certificações**:
+
+![Badge Airflow Fundamental](../assets/img/badgeairflow.png)
+![Badge DAG Authoring](../assets/img/badgeadag.png)
+
 <h3 align="left">Se conecte comigo:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/luhborba" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="luhborba" height="30" width="40" /></a>
