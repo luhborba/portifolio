@@ -8,12 +8,16 @@ Como amante do estudo, a vida acadêmica é algo que sempre estará em atualiza�
 - **Tecnólogo** em Gestão da Tecnologia da Informação na **Faculdade Internacional da Paraíba-FPB** [Junho/2014]
 ## Certificações
 
+- Astronomer Certification DAG Authoring for Apache Airflow [Dezembro/2024]
+- Astronomer Certification for Apache Airflow Fundamentals [Dezembro/2024]
 - Python (Basic) HackerRank [Novembro/2023]
 - ISO 37001 (Antisuborno) e ISO 37301 (Complice) - Tradius [Outubro/2023]
 - Business Intelligence Foundation Professional Certification BIFPC [Junho/2023]
 ## Cursos Livres
 
 ### Engenharia de Dados
+- Engenharia de Dados com Google Dataflow e Apache Beam na GCP - 3,5 Horas - **Udemy - Cassio Bolba** [Outubro/2024]
+- Microsoft Fabric: Arquitetura e Engenharia de Dados - 5 Horas - **Udemy - Felipe Mafra** [Setembro/2024]
 - Workshop DBT com BigQuery - 4 Horas - **Jornada de Dados - Luciano Galvão** [Junho/2024]
 - The Complete Hands-On Introduction to Apache Airflow - 3,5 Horas - **Udemy - Marc Lamberti** [Maio/2024]
 - Construindo uma API do Zero com Deploy P2- 4 Horas - **Jornada de Dados - Luciano Galvão** [Maio/2024]
