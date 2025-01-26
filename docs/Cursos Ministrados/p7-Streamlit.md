@@ -7,11 +7,11 @@
 - Utilize o CUPOM `LUCIANOBORBA`
 
 ### 📊Estatisticas do Curso 👨🏽‍🏫:
-✔ Mais de 300 Alunos<br>
-✔ 4,92 de 5 🌟 de Avaliação<br>
+✔ Mais de 400 Alunos<br>
+✔ 4,9 de 5 🌟 de Avaliação<br>
 ✔ Certificado de conclusão<br>
 ✔ Acesso direto ao instrutor<br>
-✔5 Horas de Aprendizado prático<br>
+✔ 7 Horas de Aprendizado prático<br>
 
 ### ✅Descrição dos módulos do curso 🚀:
 - Módulo 1: Introdução<br>
@@ -36,7 +36,7 @@
 ✔ Comunicação com Banco de Dados<br>
 ✔ Deploy com Docker<br>
 
-- Módulo 5: Projeto de CRUD com DataViz(Lançamento 20/06)<br>
+- Módulo 5: Projeto de CRUD com DataViz(Em Desenvolvimento)<br>
 ✔ Apresentação do Projeto<br>
 ✔ Preparação do Ambiente<br>
 ✔ Criação de CRUD<br>
